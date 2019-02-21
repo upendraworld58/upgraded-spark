@@ -1,0 +1,17 @@
+<svg id="VR-Difference-bottom-Graphic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="218" height="187" viewBox="0 0 218 187">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="218" height="187" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.175" y1="0.03" x2="0.664" y2="0.912" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5bbce6"/>
+      <stop offset="0.998" stop-color="#9618cc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" width="218" height="187" fill="#fff"/>
+  <g id="VR-Difference-bottom-Graphic-2" data-name="VR-Difference-bottom-Graphic" clip-path="url(#clip-path)">
+    <g id="VR-Difference-bottom-Graphic-3" data-name="VR-Difference-bottom-Graphic" transform="translate(-140 19)" opacity="0.3">
+      <path id="Path" d="M1.675,338.484c5.609,23.938,48.552,86.462,118.952,16.07,78.6-78.51,91.5-72.149,124.728-79.766,47.045-10.8,112.59-56.163,69.731-163.633S193.036-21.759,131.928,17.245c0,0-31.056,20-31.559,56.33s2.679,168.32-52.319,199.122C13.9,288.348-6.11,305.423,1.675,338.484Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
