@@ -193,7 +193,7 @@ responsive: [
          // 
          // remove scrollify from mobile |||||||
          // 
-         if (!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent))) { //if not these devices(userAgents)
+         if (!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile|ipad/i.test(navigator.userAgent))) { //if not these devices(userAgents)
              $(function() {
                  $.scrollify({
                      section: ".panel",

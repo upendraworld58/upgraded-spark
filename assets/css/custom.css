@@ -825,9 +825,7 @@ font-size: 24px;
 span .img-inline{
 display: inline-block;
 }
-.footer{
-    margin-top: -90px;
-}
+
 .case-study-footer{
     margin-top: 0px;
 }
@@ -2776,7 +2774,8 @@ right: -53px;
 top: 15px;
 }
 #case-study-nav.slider-nav {
-margin-top: -65px !important;
+margin-top: -20px !important;
+font-size: 0;
 }
 .ar-vr-image, .ux-image, .eCom-img {
 width: 50%;
