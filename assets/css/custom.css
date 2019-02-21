@@ -2807,6 +2807,9 @@ font-size: 20px;
 .mb-m{
     margin-bottom: 30px;
 }
+.pt-m{
+    padding-top: 30px;
+}
 .footer {
 padding: 0 !important;
 }
