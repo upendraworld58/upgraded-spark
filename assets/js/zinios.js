@@ -318,8 +318,22 @@ responsive: [
           $('body').css("overflow", "auto");
           $('nav .main-logo').attr('src','assets/images/logo-w.svg');
           $('.animated-hamburger span').css("background" , "#fff");  
-      })
+      });
   
+      
+
+      $(".video-360").click(function(){
+        $(".player_wrapper1").css("visibility","visible");
+        $(".player_wrapper1").css("opacity","1");
+      });
+      $(".video-cancel").click(function(){
+        $(".player_wrapper1").css("visibility","hidden");
+        $(".player_wrapper1").css("opacity","0");
+      });
+       
+     
+ 
+
 
         
          $(function (){
