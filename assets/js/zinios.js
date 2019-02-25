@@ -83,7 +83,25 @@
                  autoplaySpeed: 10000,
                  appendDots: $('#home-banner-nav'),
                  cssEase: "cubic-bezier(0.075, 0.82, 0.165, 1)",
-             });
+              responsive: [
+              {
+                breakpoint: 800,
+                settings: {
+                  slidesToShow: 1,
+                  dots: true
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  centerPadding: '40px',
+                  slidesToShow: 1,
+                  dots: true,
+                }
+              }
+            ]
+            });
+
              $('.case-study_in').slick({
                  slidesToShow: 1,
                  slidesToScroll: 1,
