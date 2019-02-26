@@ -175,7 +175,7 @@
                            <div>
                               <div class="dummy-banner-ux">
                                  <div class="ux-image">
-                                    <img class="img-100" src="assets/images/ux-photo.png" alt="">
+                                    <div class="img-block back-image-ecommerce"></div>
                                     <div class="ux-anim">
                                        <svg viewBox="0 0 386 293">
                                           <g id="ux-10" transform="translate(292.000000, 129.000000)" fill="#29ABE2" fill-rule="nonzero">
@@ -493,7 +493,7 @@
                      <div class="container-fluid deliver-7">
                           
                         <div class="no-gutters align-items-center w-100 h-100 section-0 scroll-overflow d-flex">
-                           <div class="row align-items-center pt-5">
+                           <div class="row align-items-center pt-5 w-100">
                               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
                                     <h2 class="text-center mb-m head-position-align " data-aos="fade-up" data-aos-offset="-100" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="">We Are Zinios</h2>
                                     </div>
@@ -595,9 +595,13 @@
                            <div class="col-sm-6 col-md-6 col-lg-7 col-xl-7 text-center" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="">
                              
                               
-                              <h4>ZINIOS - Knowledge</h4>
-                              <p class="text-content">Here at Zinios we do everything Web & More. We are crafting Niche technology solutions for our clients using Top notch technologies you will uncover exploring the website. We are the technology partners our competitors are striving to be.
-                              </p>
+                              <h4 >ZINIOS - Knowledge</h4>
+                              <ul class="text-content list-content">
+                                 <li>2 successfully completed years.</li>
+                                 <li>Team size of 65, going strong.</li>
+                                 <li>56 Happy clients.</li>
+                                 <li>Completed projects 100+.</li>
+                              </p\ul>
                            </div>
                         </div>
                      </div>
@@ -1018,7 +1022,7 @@
                            </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-7 col-xl-7 text-center" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="">
-                           <p class="text-subheading text-bold">We're hiring</p>
+                           
                           
                           
                            <p class="text-content">The Zinios world is a mix of people from diverse
@@ -1186,13 +1190,17 @@
                            <input type="email" class="form-control" id="email" placeholder="Email">
                         </div>
                         <div class="form-group">
+                              <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                           </div>
+                        <div class="form-group">
                            <input type="text" class="form-control" id="company" placeholder="Company">
                         </div>
                         <div class="form-group">
-                           <textarea class="form-control" rows="3" id="message" placeholder="Message"></textarea>
+                           <textarea class="form-control" rows="3" id="message" placeholder="Share Your Project Idea"></textarea>
                         </div>
                      </form>
                      <button type="button" class="btn btn-normol">Send</button>
+                     <button type="button" class="btn btn-normol">Close</button>
                      
                   </div>
                </div>
@@ -1214,6 +1222,9 @@
                               <input type="email" class="form-control" id="email" placeholder="Email">
                            </div>
                            <div class="form-group">
+                                 <input type="email" class="form-control" id="phone" placeholder="Phone">
+                              </div>
+                           <div class="form-group">
                                  <select class="form-control"  id="Position">
                                     <option>Position</option>
                                     <option>UI Developer</option>
@@ -1223,12 +1234,11 @@
                                    
                                  </select>
                               </div>
-                           <div class="form-group">
-                              <textarea class="form-control" rows="3" id="message" placeholder="Message"></textarea>
-                           </div>
-                           <div class="form-group">
+                           <div class="form-group open-position">
                                  <input type="file" name="fileupload" value="fileupload" id="fileupload">
-                                 <button type="button" class="btn btn-normol">Send</button>
+                                 <label for="fileupload">Upload Resume</label>
+                                 <button type="button" class="btn btn-normol open-btn">Send</button>
+                                 <button type="button" class="btn btn-normol close-btn">Close</button>
                            </div>
                         </form>
                         

@@ -134,7 +134,22 @@ font-weight: 500;
 .text-light {
 font-weight: 500;
 }
+#fileupload{
+    display: none;
+}
+#fileupload+ label{
+    background: linear-gradient(45deg, #be3084 0%,#fdbf17 100%);
+    padding: .375rem .75rem;
+    color: #fff;
+    border-radius: 3px;
+    float: left;
+    cursor: pointer;
+}
 
+.zinios-knowledge{
+    text-align: left;
+    padding-left: 22.5%;
+}
 .player_wrapper1{
     position: absolute;
     width: 100%;
@@ -236,7 +251,16 @@ font-weight: 500;
   .video-360 img{
       width: 35px;
   }
+  .back-image-ecommerce{
+      width: 426px;
+      height: 300px;
+      background: #fff;
+      margin: 0 auto;
+  }
   
+  .case-study-right{
+    background-position: 100% 44% !important;
+  }
 .text-subheading {
 font-size: 16px;
 color: #000000;
@@ -455,7 +479,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#450251', en
 
 .button-light a {
 display: inline-block;
-border: 1px solid #FDBF17;
+
 border-radius: 5px;
 padding: 5px;
 margin: 3px;
@@ -898,7 +922,7 @@ display: inline-block;
 }
 
 .case-study-footer{
-    margin-top: 0px;
+    margin-top: -130px;
 }
 .mr-b{
     margin-bottom: 50px;
@@ -1418,6 +1442,11 @@ transition: transform 0.3s;
 }
 .ux-image {
 width: 39%;
+bottom: 23%;
+}
+.case-image {
+    
+    bottom: 10%;
 }
 .ux-anim {
 position: absolute;
@@ -1862,8 +1891,14 @@ padding-bottom: 70px;
 .AR-VR-pagesection2 .pos-left-bottom {
 width: 16%;
 position: absolute;
-bottom: -3%;
+bottom: -7%;
 left: 0;
+}
+.case-study-right .pos-left-bottom{
+    width: 16%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .AR-VR-pagesection1 .pos-left-bottom {
 width: 13%;
@@ -2817,6 +2852,11 @@ width: 100px;
 max-width: 100px;
 
 }
+.list-content {
+   
+    padding-left: 30px;
+    
+}
 
 .animated-hamburger {
 width: 24px;
@@ -2981,6 +3021,13 @@ height: inherit;
 }
 .pt-mob-5{
     padding-top: 50px
+}
+.case-study-right .pos-left-bottom{
+    bottom: -38px;
+
+}
+.case-study-footer{
+    margin-bottom:0; 
 }
 
 /* AR-VR page end */

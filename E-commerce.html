@@ -1073,33 +1073,37 @@
       </footer>
       <!-- Modal -->
       <div class="modal fade no-gutters" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="custom-modal-content modal-content">
-               <div class="custom-modal-footer">
-                  <div class="modal-body mx-auto w-75 text-center">
-                     <h2 class="modal-title" id="exampleModalLabel">Contact Us</h2>
-                     <form action="/action_page.php">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+               <div class="custom-modal-content modal-content">
+                  <div class="custom-modal-footer">
+                     <div class="modal-body mx-auto w-75 text-center">
+                        <h2 class="modal-title" id="exampleModalLabel">Contact Us</h2>
+                        <form action="/action_page.php">
+                           
+                           <div class="form-group">
+                              <input type="text" class="form-control" id="Name" placeholder="Name">
+                           </div>
+                           <div class="form-group">
+                              <input type="email" class="form-control" id="email" placeholder="Email">
+                           </div>
+                           <div class="form-group">
+                                 <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                              </div>
+                           <div class="form-group">
+                              <input type="text" class="form-control" id="company" placeholder="Company">
+                           </div>
+                           <div class="form-group">
+                              <textarea class="form-control" rows="3" id="message" placeholder="Share Your Project Idea"></textarea>
+                           </div>
+                        </form>
+                        <button type="button" class="btn btn-normol">Send</button>
+                        <button type="button" class="btn btn-normol">Close</button>
                         
-                        <div class="form-group">
-                           <input type="text" class="form-control" id="Name" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                           <input type="email" class="form-control" id="email" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                           <input type="text" class="form-control" id="company" placeholder="Company">
-                        </div>
-                        <div class="form-group">
-                           <textarea class="form-control" rows="3" id="message" placeholder="Message"></textarea>
-                        </div>
-                     </form>
-                     <button type="button" class="btn img-button">Send</button>
-                     
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
       <div class="modal fade no-gutters" id="positionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                <div class="custom-modal-content modal-content">
