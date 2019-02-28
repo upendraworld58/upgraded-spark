@@ -250,6 +250,7 @@ font-weight: 500;
   }
   .video-360 img{
       width: 35px;
+      margin-right: 10px;
   }
   .back-image-ecommerce{
       width: 426px;
@@ -436,8 +437,8 @@ background-color: #ffffff;
 }
 #case-study-nav.slider-nav {
 position: inherit;
-top: 0;
 right: 0;
+top:30px;
 }
 #Clients img{
     opacity: 0.2;
@@ -866,17 +867,22 @@ margin: auto;
 
 
 .case-study{
-width: 66.75%;
+width: 60%;
 margin: 0 auto;
 }
 .case-study-block{
 position: relative;
 margin: 25px auto;
 overflow: hidden;
+right: -20px;
+    top: -4px;
 }
-.case-study-block img{
-width: 100%;
+
+.case-list{
+    font-size: 12px;
+    color: #707070;
 }
+
 .center-block{
 position: absolute;
 top: -1px;
@@ -896,8 +902,7 @@ top: 0;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
-height: 100%;
-padding: 0 50px;
+padding:50px 0;
 align-items: center;
 }
 .center-image .logo-1 {
@@ -921,9 +926,7 @@ span .img-inline{
 display: inline-block;
 }
 
-.case-study-footer{
-    margin-top: -130px;
-}
+
 .mr-b{
     margin-bottom: 50px;
 
@@ -2047,6 +2050,7 @@ color: #fff;
 .centena .mobile-section .casestudy-bottom{
     background-color: #fb7324; 
 }
+
 .content-wrapper .Team span{
 height: 40px;
 width: 40px;
@@ -2202,6 +2206,9 @@ width: 100%;
     .course-details{
         text-align: center;
     }
+    .slide-details{
+        text-align: left;
+    }
     .course-details .lap-detail-background{
     position: relative;
     right: 0;
@@ -2210,16 +2217,22 @@ width: 100%;
     display: inline-block;
     }
     .course-details .detail-course {
-    position: absolute;
-    right: 0px;
-    top: 31px;
-    width: 390px;
-    overflow: hidden;
-    max-height: 250px;
+        position: absolute;
+        right: 7px;
+        top: 17px;
+        width: 400px;
+        overflow: hidden;
+        max-height: 260px;
+    }
+    .lap-detail-background .bg-img{
+        position: absolute;
+    /* width: 100%;
+    right: 20px; */
     }
     .course-details .detail-course img{
         width: 100%;
     }
+    
     .course-details .casestudy-detail-bottom{
     position: absolute;
     right: 0px;
@@ -2662,6 +2675,9 @@ span.pos-left-bottom {
     width: 100%;
     margin: 4% auto;
 }
+.case-study-block img {
+    width: 90% !important;
+}
 }
 /* 
 ##Device = Tablets, Ipads (landscape)
@@ -2904,13 +2920,13 @@ left: -3px;
 bottom: -2px;
 }
 .center-image {
-top: 30px;
-padding: 20px;
-width: 100%;
+    position: inherit;
+    top: -26px;
+    padding: 0 50px;
 }
 .case-study-block {
 position: relative;
-height: 74vh;
+height: 34vh;
 }
 .center-image .logo-span {
 position: relative;
@@ -2918,9 +2934,11 @@ right: -53px;
 top: 15px;
 }
 #case-study-nav.slider-nav {
-margin-top: -20px !important;
+margin-top: 0px !important;
 font-size: 0;
+top: 0;
 }
+
 .ar-vr-image, .ux-image, .eCom-img {
 width: 50%;
 position: absolute;
@@ -3043,12 +3061,19 @@ height: inherit;
 }
 .course-details .lap-detail-background img {
     
+    width: 90%;
+}
+.course-details .lap-detail-background .bg-img{
     width: 100%;
+}
+.case-study-block{
+    right: -15px;
+    top: -11px;
 }
 .course-details .detail-course {
     position: absolute;
-    right: 17px;
-    top: 20px;
+    right: 15px;
+    top: 14px;
     width: 310px;
     max-height: 196px;
 }
@@ -3179,6 +3204,10 @@ margin-bottom: 30px;
     margin-bottom: 20px;
 }
 
+.slide-block img{
+    width: 100%;
+}
+
 /* UI_UX end */
 
 
@@ -3188,12 +3217,12 @@ margin-bottom: 30px;
 @media (max-width: 400px) {
    
 .course-details .detail-course {
-    width: 265px;
-    max-height: 169px;
+    width: 90%;
+    max-height: 189px;
     
 }
 .course-details .lap-detail-background {
-    width: 300px;
+    width: 100%;
 }
 .laptop-section .casestudy-lapbackground .casestudy-lap {
     bottom: 80px;
@@ -3252,7 +3281,7 @@ margin: 0 auto;
 }
 .course-details .lap-detail-background {
     
-    width: 350px;
+    width: 250px;
 }
 .course-details .lap-detail-background img {
     
@@ -3260,9 +3289,9 @@ margin: 0 auto;
 }
 .course-details .detail-course {
     position: absolute;
-    right: 23px;
-    top: 23px;
-    width: 310px;
+    right: 11px;
+    top: 11px;
+    width: 230px;
 }
 .mr-m {
     margin-bottom: 30px;
@@ -3401,6 +3430,7 @@ line-height: 20px;
     display: none;
 }
 
+
 }
 @media  (max-height: 320px) and (orientation: landscape) {
 .baner-content {
@@ -3411,6 +3441,17 @@ right: 0;
 }
 .m-b-5 {
     margin-bottom: 0;
+}
+.case-study-block img {
+    width: 190px !important;
+}
+.course-details .lap-detail-background {
+    width: 210px !important;
+}
+.center-image {
+    
+    padding: 10px 0 !important;
+   
 }
 }
 @media only screen and (min-width: 375px) and (max-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
@@ -3478,7 +3519,7 @@ h2 {
 .center-image {
     right: -10px;
     padding: 10px 31px;
-    top:-12px;
+    top:-5px;
 }
 .center-block {
     right: -23px;
@@ -3576,5 +3617,11 @@ h2 {
     margin-right: 10px;
     margin-bottom: 20px;
 }
-
+.case-study-block {
+    right: -11px;
+    top: -15px;
+}
+.case-study-block img{
+    width: 230px !important;
+}
 }
