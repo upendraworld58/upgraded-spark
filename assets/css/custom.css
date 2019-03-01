@@ -2959,6 +2959,7 @@ bottom: -2px;
     align-items: center;
     width: inherit;
     margin-right: 0px;
+    padding: 20px 0;
 }
 .case-study-block {
 position: relative;
@@ -2972,7 +2973,7 @@ top: 15px;
 #case-study-nav.slider-nav {
 margin-top: 0px !important;
 font-size: 0;
-top: 0;
+top: -30px;
 }
 
 .ar-vr-image, .ux-image, .eCom-img {
