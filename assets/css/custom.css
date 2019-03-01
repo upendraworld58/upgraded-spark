@@ -421,6 +421,9 @@ right: 10%;
 outline: none;
 width: 370px;
 }
+.case-study-right-middle{
+    background-position: 100% 0 !important;
+}
 #home-banner-nav .slick-dots {
 display: flex;
 justify-content: center;
